@@ -1,0 +1,21 @@
+linters:
+  enable-all: false
+  disable-all: true
+  enable:
+    - depguard
+    - gocritic
+    - gofmt
+    - goimports
+    - revive
+    - gosimple
+    - govet
+    - ineffassign
+    - misspell
+    - exportloopref
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+
+issues:
+  exclude-use-default: true
